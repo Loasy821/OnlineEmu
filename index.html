@@ -1,27 +1,66 @@
-<html>
-    <head>
-        <!--HTML file auto generated using EmulatorJS codehelper-->
-        <style>
-            body, html {
-                margin: 0;
-                padding: 0;
-            }
-        </style>
-    </head>
-    <body>
-        <div style="width:100%;height:100%;max-width:100%">
-            <div id="game"></div>
-        </div>
-        <script>
-            EJS_player = "#game";
-            EJS_core = "gba";
-            EJS_gameName = "Pokemon Leaf Green";
-            EJS_color = "#0064ff";
-            EJS_startOnLoaded = true;
-            EJS_pathtodata = "https://cdn.emulatorjs.org/stable/data/";
-            EJS_gameUrl = "Pokemon - Leaf Green Version (U) (V1.1).gba";
-            EJS_biosUrl = "bios.S";
-        </script>
-        <script src="https://cdn.emulatorjs.org/stable/data/loader.js"></script>
-    </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cool Button Page</title>
+<style>
+  body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #1f1c2c, #928dab);
+    font-family: 'Poppins', sans-serif;
+    color: white;
+  }
+
+  h1 {
+    font-size: 2em;
+    margin-bottom: 30px;
+    text-shadow: 0 0 10px rgba(255,255,255,0.3);
+  }
+
+  .btn-container {
+    display: flex;
+    gap: 20px;
+  }
+
+  button {
+    padding: 10px 20px;
+    font-size: 0.9em;
+    color: white;
+    background: rgba(255, 255, 255, 0.1);
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 8px;
+    cursor: pointer;
+    backdrop-filter: blur(6px);
+    transition: all 0.3s ease;
+  }
+
+  button:hover {
+    background: white;
+    color: #1f1c2c;
+    box-shadow: 0 0 15px rgba(255,255,255,0.6);
+    transform: translateY(-3px);
+  }
+
+  footer {
+    position: absolute;
+    bottom: 15px;
+    font-size: 0.8em;
+    opacity: 0.7;
+  }
+</style>
+</head>
+<body>
+  <h1>Cool Buttons ✨</h1>
+  <div class="btn-container">
+    <button>Button 1</button>
+    <button>Button 2</button>
+  </div>
+  <footer>Made with ❤️ in HTML & CSS</footer>
+</body>
 </html>
